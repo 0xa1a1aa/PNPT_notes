@@ -1,0 +1,1 @@
+Analyse HTTP response headers for information, just passively collecting information.
