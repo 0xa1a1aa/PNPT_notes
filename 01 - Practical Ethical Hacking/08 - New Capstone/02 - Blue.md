@@ -1,7 +1,5 @@
 # Information Gathering
 
-
-
 SMB version:
 ![[Pasted image 20240306193316.png]]
 

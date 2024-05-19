@@ -14,6 +14,8 @@ Attack tool:
 **Responder**
 https://github.com/SpiderLabs/Responder
 
+- Responder will impersonate services using LLMNR, NBT-NS, mDNS, WPAD protocols, capturing credentials (usually NTLMv2 Challenge/Response) when a user attempts to authenticate against the spoofed services.
+- Attempts can be made to downgrade to NetNTLMv1 or disable ESS for easier credential cracking.
+
 >[!Note]
 >A good time of the day to launch a LLMNR poisoning attack is early in the morning or after lunch, when people login into their computers.
-

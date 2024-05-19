@@ -20,3 +20,4 @@ Here are some commonly used ports and the protocols associated with them in comp
 | TFTP (Trivial File Transfer Protocol)        | 69     | UDP      |
 | LDAP (Lightweight Directory Access Protocol) | 389    | TCP, UDP |
 | MySQL                                        | 3306   | TCP      |
+|                                              |        |          |

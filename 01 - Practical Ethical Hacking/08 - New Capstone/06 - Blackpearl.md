@@ -159,6 +159,7 @@ We could spawn a TTY shell (https://sushant747.gitbooks.io/total-oscp-guide/cont
 Download *linpeas.sh* from attacker http server and execute it.
 `/usr/bin/php7.3` is a SUID binary:
 ![[Pasted image 20240308220255.png]]
+=> php SUID binary
 
 From https://gtfobins.github.io/gtfobins/php/ SUID just use the last line with the php binary: 
 ```bash

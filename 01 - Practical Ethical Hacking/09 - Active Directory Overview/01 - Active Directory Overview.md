@@ -11,7 +11,7 @@ Active Directory Services consist of multiple directory services. The best known
 ### Domain Services
 Active Directory Domain Services (AD DS) is the foundation of every Windows domain network. It stores information about domain members, including devices and users, verifies their credentials, and defines their access rights. The server running this service is called a domain controller. A domain controller is contacted when a user logs into a device, accesses another device across the network, or runs a line-of-business Metro-style app sideloaded into a machine.
 
-Other Active Directory services (excluding LDS, as described below) and most Microsoft server technologies rely on or use Domain Services; examples include Group Policy, Encrypting File System, BitLocker, Domain Name Services, Remote Desktop Services, Exchange Server, and SharePoint Server.
+Other Active Directory services (excluding LDS, as described below) and most Microsoft server technologies rely on or use Domain Services; examples include Group Policy, Encrypting File System, BitLocker, Domain Name Services (DNS), Remote Desktop Services (RDP), Exchange Server, and SharePoint Server.
 
 ### Lightweight Directory Services
 

@@ -21,7 +21,7 @@ List all privileges: `privilege::`
 With `sekurlsa::` you can show the available options to enumerate credentials:
 ![[Pasted image 20240323114942.png]]
 
-Show all login passwors with `sekurlsa::logonPasswords`:
+Show all login passwords with `sekurlsa::logonPasswords`:
 This commands dumps a lot of content:
 ![[Pasted image 20240323115603.png]]
 In the output there might also be cleartext passwords, like in our example.
