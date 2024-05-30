@@ -18,7 +18,7 @@ Create a 2nd administrator account. Right click and copy user "Administrator":
 ![[Pasted image 20240309173351.png]]
 Password1234
 
-Now we have created a new user account (Tony Stark):
+Now we have created a new administrator user account (Tony Stark):
 ![[Pasted image 20240309173510.png]]
 
 Now we create a service account for SQL by copying the Administrator once more (this is not recommended btw):
@@ -92,7 +92,7 @@ Set the GPO name -> OK:
 Edit the newly created policy. Right Click -> Edit:
 ![[Pasted image 20240309181148.png]]
 
-Navigate to "Policies" -> "Administrative Templates..." -> "Windows Components" -> "Microsoft Defender Antivirus":
+Navigate to "Computer Configuration" -> "Policies" -> "Administrative Templates..." -> "Windows Components" -> "Microsoft Defender Antivirus":
 ![[Pasted image 20240309181529.png]]
 
 Click on "Turn off Microsoft Defender Antivirus".

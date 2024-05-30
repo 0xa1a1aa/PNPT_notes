@@ -1,5 +1,5 @@
 Setup steps:
-1. Create new VM with Windows Server ISO
+1. Create new VM with Windows Server ISO![[Pasted image 20240520135237.png]]
 2. Create the administrator account (administrator:P@\$\$w0rd!):![[Pasted image 20240310110933.png]]
 3. Rename machine:   ![[Pasted image 20240309132613.png]]
    ![[Pasted image 20240309132652.png]]
@@ -17,7 +17,7 @@ Setup steps:
 10. Click Next until "Server Roles". Add "Active Directory Certificate Services":
    ![[Pasted image 20240309134953.png]]
 11. Click Next until "Confirmation". Set "Restart ..." and click Install.
-12. After installation is done click "Configure ..."
+13. After installation is done click "Configure ..."
     ![[Pasted image 20240309135205.png]]
 13. (Credentials) Next ->(Role Services) Set "Certification Authority"    ![[Pasted image 20240309135313.png]] 
     -> Click next until "Validity Period". Set 99 years -> Next -> Configure
