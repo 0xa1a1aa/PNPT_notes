@@ -18,5 +18,4 @@ hashcat -m 1000 hashes.txt /usr/share/wordlists/rockyou.txt
 ```
 
 >[!Note]
->Don't try to crack PC passwords, just crack user password!
-
+>Don't try to crack computer passwords, just crack user password!

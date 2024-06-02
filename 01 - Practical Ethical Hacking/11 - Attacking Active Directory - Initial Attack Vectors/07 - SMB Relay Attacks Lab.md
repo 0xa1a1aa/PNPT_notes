@@ -7,7 +7,7 @@ Setup:
 
 **Exploitation steps:**
 - Scan the network for hosts
-- Identify hosts with SMB signing not required (nmap script: `nmap --script=smb2-security-mode.nse -p 445 <IP>`)
+- Identify hosts with SMB signing not required (nmap script: `nmap -Pn --script=smb2-security-mode.nse -p 445 <IP>`)
 - Config (disable SMB, HTTP) and run *responder*
 - Run *ntlmrelayx* (with the targets identified in point 1)
 
@@ -146,7 +146,7 @@ We can also use the argument `-i` (for interactive mode) to gain a shell:
 ```bash
 impacket-ntlmrelayx -tf targets.txt -smb2support -i
 ```
-`-i`: Launch an smbclient, LDAP console or SQL shell insteadof executing a command after a successful relay. This console will listen locally on a tcp port and can be reached with for example netcat.
+`-i`: Launch an smbclient, LDAP console or SQL shell instead of executing a command after a successful relay. This console will listen locally on a TCP port and can be reached with for example netcat.
 
 From the output we see that an SBM client shell is listening on our local machine 127.0.0.1 on port 11000:
 ![[Pasted image 20240312174319.png]]
