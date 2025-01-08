@@ -132,3 +132,8 @@ Read data files from: /usr/bin/../share/nmap
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Tue Mar  5 16:00:44 2024 -- 1 IP address (1 host up) scanned in 20.99 seconds
 ```
+
+Try different scan types too!
+```
+nmap -T4 -p- -A
+```
